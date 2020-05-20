@@ -1,3 +1,3 @@
 <?php
-header("location: https://ultrasonic333.herokuapp.com/json.html");
+header("location: https://explorer.earthengine.google.com/getProject");
 ?>
